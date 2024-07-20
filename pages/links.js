@@ -20,7 +20,7 @@ export default function Home() {
             <Button key={index} title={value.title} link={value.link} />
           ))}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Fragment>
   );
